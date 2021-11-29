@@ -1,0 +1,198 @@
+[
+    {
+        "question": "Do you give me permission to access your supply details?",
+        "questionId": "DDchangedquery",
+        "answers": [{
+            "text": "yes",
+            "nextquestionId": 2
+        },
+        {
+            "text": "no",
+            "nextquestionId": ""
+        }
+        ]
+    },
+    {
+        "question": "Has the customer switched in the last 12 months?",
+        "questionId": 2,
+        "answers": [{
+            "text": "yes",
+            "nextquestionId": 3
+        },
+        {
+            "text": "no",
+            "nextquestionId": 3
+        }
+    ]
+    },
+    {
+        "question": "DD increased or decreased?",
+        "questionId": 3,
+        "answers": [{
+            "text": "Increased",
+            "nextquestionId": 7
+        },
+        {
+            "text": "Decreased",
+            "nextquestionId": 4
+        }
+    ]
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "Most suppliers review their customers Direct Debit amounts every 6 months. The decrease s likely to be linked to you being in credit. The supplier will have lowered the direct debit so you can use up your credit.",
+        "line3": "As we are a helpline, we are also just going to see if we can save you some more money today, OK? If you switch you will also get all of your credit back from the supplier.",
+        "additionalinfo": "Most suppliers review their direct debits every 6 months. Even though your direct debit has decreased, we would recommend comparing prices as you could find a tariff with cheaper unit prices. And if you switch, if you are in credit would will get this paid back to you too.",
+        "additionalinfo2": "Industry experts recommend doing a full market comparison and reviewing your rates and offers every 12 months to make sure you are not paying more than you need to.",
+        "questionId": 4
+    },
+    {
+        "question": "Has your tariff recently come to an end?",
+        "additionalinfo": "The increase could be due to a number of things, so just going to ask a couple of more questions...",
+        "sideboxinfo": "Most suppliers review their direct debits every 6 months. If the bill has increased it could be a number of factors. For example if you are on a variable tariff your unit rates may have increased. As a helpline we can help you compare tariffs and look at fixed tariffs across our panel of suppliers.",
+        "questionId": 7,
+        "answers": [{
+            "text": "Yes",
+            "nextquestionId": 8
+        },
+        {
+            "text": "No",
+            "nextquestionId": 9
+        }
+            
+        ]
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "It is likely that you have been moved onto a more expensive standard variable tariff. We recommend customers switch tariffs at least every 12 months, so we are just going to give you a quote to see if we can save you some Money today OK?",
+        "additionalinfo": "Industry experts recommend doing a full market comparison and reviewing your rates and offers every 12 months to make sure you are not paying more than you need to.",
+        "additionalinfo2": "Variable tariffs also quite often see price increases. When the price cap was last reviewed it saw the prices of Standard Variable Tariffs increase by nearly £100 a year on a typical usage.",
+        "questionId": 8
+    },
+    {
+        "question": "Are you in debt with the current supplier?",
+        "questionId": 9,
+        "answers": [{
+            "text": "Yes",
+            "nextquestionId": 10
+        },
+        {
+            "text": "No",
+            "nextquestionId": 13
+        }
+            
+        ]
+    },
+    {
+        "question": "Is the debt over £500?",
+        "questionId": 10,
+        "answers": [{
+            "text": "Yes",
+            "nextquestionId": 11
+        },
+        {
+            "text": "No",
+            "nextquestionId": 12
+        }
+        ]
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "The increase of your DD is likely to be to cover the outstanding balance. Your DD will be part to cover your usage and part to repay the debt.",
+        "line3": "What we could do for you is to see if we can find you a provider that is cheaper for you in terms of your usage, and then give you the details of how to set up a payment plan with your provider, so I am just going to see if I can save you some money today OK?",    
+        "additionalinfo": "While we understand that being in debt can be very stressful, it makes sense to see if you can save money on your bills too. We can save our customers up to £180 per year.",
+        "additionalinfo2": "Industry experts recommend doing a full market comparison and reviewing your rates and offers every 12 months to make sure you are not paying more than you need to.",
+        "questionId": 11
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "The increase of your DD is likely to be to cover the outstanding balance. Your DD will be part to cover your usage and part to repay the debt.",
+        "line3": "What we could do for you is to see if we can find you a provider that is cheaper for you in terms of your usage, and then give you the details of how to set up a payment plan with your provider, so I am just going to see if I can save you some money today OK?",    
+        "additionalinfo": "While we understand that being in debt can be very stressful, it makes sense to see if you can save money on your bills too. We can save our customers up to £180 per year.",
+        "additionalinfo2": "Industry experts recommend doing a full market comparison and reviewing your rates and offers every 12 months to make sure you are not paying more than you need to.",
+        "questionId": 12
+    },
+    {
+        "question": "Have you provided up-to-date meter readings to the supplier?",
+        "questionId": 13,
+        "answers": [{
+            "text": "Yes",
+            "nextquestionId": 16
+        },
+        {
+            "text": "No",
+            "nextquestionId": 14,
+            "altnextquestionId": 15
+        }
+        ]
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "It is possible that your DD has been reviewed based on an estimated bill. We recommend you provide some meter readings to the supplier and ask them to review the DD again.",
+        "line3": "Also, we understand you may not be on the best energy tariff, so we are just going to see if we can save you some money today, OK?",    
+        "additionalinfo": "Most suppliers review their direct debits every 6 months. If you are on a variable tariff your unit rates may have increased. As a helpline we can help you compare tariffs and look at fixed tariffs across our panel of suppliers.",
+        "additionalinfo2": "Industry experts recommend doing a full market comparison and reviewing your rates and offers every 12 months to make sure you are not paying more than you need to.",
+        "questionId": 14
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "It is possible that your DD has been reviewed based on an estimated bill. We recommend you provide some meter readings to the supplier and ask them to review the DD again.",
+        "line3": "Also, we understand you may not be on the best energy tariff, so we are just going to see if we can save you some money today, OK?",    
+        "additionalinfo": "Most suppliers review their direct debits every 6 months. If you are on a variable tariff your unit rates may have increased. As a helpline we can help you compare tariffs and look at fixed tariffs across our panel of suppliers.",
+        "additionalinfo2": "Although you have switched in the last 12 months it is likely you will roll onto a more expensive standard variable tariff at the end of the term - if this is the case you will end up significantly overpaying. We are able to offer you a new fixed rate tariff today that will protect your unit rate prices.",
+        "moreadvice1": "Not every supplier offers the very best rates and rates can change day to day. That is why it is important to always check the current market rates and see if there is a cheaper option available for you.",
+        "moreadvice2": "Industry experts recommend that you switch every 12 months in order to keep your prices as low as possible.",
+        "questionId": 15
+    },
+    {
+        "question": "Have you provided up-to-date meter readings to the supplier?",
+        "questionId": 16,
+        "answers": [{
+            "text": "Yes",
+            "nextquestionId": 17
+        },
+        {
+            "text": "No",
+            "nextquestionId": 18,
+            "altnextquestionId": 19
+        }
+        ]
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "We would need to put you in contact with (supplier) to discuss this further, but before we do we are just going to see if we can save you some money today, OK?",
+        "additionalinfo": "Most suppliers review their direct debits every 6 months. If you are on a variable tariff your unit rates may have increased. As a helpline we can help you compare tariffs and look at fixed tariffs across our panel of suppliers.",
+        "additionalinfo2": "Industry experts recommend doing a full market comparison and reviewing your rates and offers every 12 months to make sure you are not paying more than you need to.",
+        "additionalinfo3": "Although you have switched in the last 12 months it is likely you will roll onto a more expensive standard variable tariff at the end of the term - if this is the case you will end up significantly overpaying. We are able to offer you a new fixed rate tariff today that will protect your unit rate prices.",
+        "moreadvice1": "Not every supplier offers the very best rates and rates can change day to day. That is why it is important to always check the current market rates and see if there is a cheaper option available for you.",
+        "moreadvice2": "Industry experts recommend that you switch every 12 months in order to keep your prices as low as possible.",
+        "questionId": 17
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "Changing your energy habits can often lead to increases in usage and therefore your DD.",
+        "line3": "Also, we understand you may not be on the best energy tariff, so we are just going to see if we can save you some money today, OK?",    
+        "additionalinfo": "Most suppliers review their direct debits every 6 months. If you are on a variable tariff your unit rates may have increased. As a helpline we can help you compare tariffs and look at fixed tariffs across our panel of suppliers.",
+        "questionId": 18
+    },
+    {
+        "results": true,
+        "line1": "Thank you for answering my questions.",
+        "line2": "It is possible that your DD has been reviewed based on an estimated bill. We recommend you provide some meter readings to the supplier and ask them to review the DD again.",
+        "line3": "Also, we understand you may not be on the best energy tariff, so we are just going to see if we can save you some money today, OK?",
+        "additionalinfo": "Most suppliers review their direct debits every 6 months. If you are on a variable tariff your unit rates may have increased. As a helpline we can help you compare tariffs and look at fixed tariffs across our panel of suppliers.",
+        "additionalinfo2": "Although you have switched in the last 12 months it is likely you will roll onto a more expensive standard variable tariff at the end of the term - if this is the case you will end up significantly overpaying. We are able to offer you a new fixed rate tariff today that will protect your unit rate prices.",
+        "moreadvice1": "Not every supplier offers the very best rates and rates can change day to day. That is why it is important to always check the current market rates and see if there is a cheaper option available for you.",
+        "moreadvice2": "Industry experts recommend that you switch every 12 months in order to keep your prices as low as possible.",
+        "questionId": 19
+    }
+
+]
